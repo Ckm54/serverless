@@ -1,7 +1,7 @@
 import registerService from './services/register';
-import loginService from './services/login';
+import loginService from './services/login.js';
 import verifyService from './services/verify';
-import { buildResponse } from './utils/util';
+import util from './utils/util';
 
 const healthPath = '/health';
 const registerPath = '/register';

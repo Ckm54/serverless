@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "register-login-backend",
   "author": "Ckm54",
   "version": "1.0.0",
