@@ -49,7 +49,7 @@ async function register(userInfo) {
   })
 }
 
-async function getUser(username) {
+export async function getUser(username) {
   const params = {
     TableName: usersTable,
     Key: {
